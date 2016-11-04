@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BCA1BC31DCCB934001DCBBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCA1BC21DCCB934001DCBBA /* AppDelegate.swift */; };
+		5BCA1BC51DCCB934001DCBBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCA1BC41DCCB934001DCBBA /* ViewController.swift */; };
+		5BCA1BC81DCCB934001DCBBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BCA1BC61DCCB934001DCBBA /* Main.storyboard */; };
+		5BCA1BCA1DCCB934001DCBBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BCA1BC91DCCB934001DCBBA /* Assets.xcassets */; };
+		5BCA1BCD1DCCB934001DCBBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BCA1BCB1DCCB934001DCBBA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5BCA1BBF1DCCB934001DCBBA /* testMarketcloudSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testMarketcloudSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BCA1BC21DCCB934001DCBBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BCA1BC41DCCB934001DCBBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BCA1BC71DCCB934001DCBBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BCA1BC91DCCB934001DCBBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BCA1BCC1DCCB934001DCBBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BCA1BCE1DCCB934001DCBBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BCA1BBC1DCCB934001DCBBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BCA1BB61DCCB933001DCBBA = {
+			isa = PBXGroup;
+			children = (
+				5BCA1BC11DCCB934001DCBBA /* testMarketcloudSDK */,
+				5BCA1BC01DCCB934001DCBBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BCA1BC01DCCB934001DCBBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BCA1BBF1DCCB934001DCBBA /* testMarketcloudSDK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BCA1BC11DCCB934001DCBBA /* testMarketcloudSDK */ = {
+			isa = PBXGroup;
+			children = (
+				5BCA1BC21DCCB934001DCBBA /* AppDelegate.swift */,
+				5BCA1BC41DCCB934001DCBBA /* ViewController.swift */,
+				5BCA1BC61DCCB934001DCBBA /* Main.storyboard */,
+				5BCA1BC91DCCB934001DCBBA /* Assets.xcassets */,
+				5BCA1BCB1DCCB934001DCBBA /* LaunchScreen.storyboard */,
+				5BCA1BCE1DCCB934001DCBBA /* Info.plist */,
+			);
+			path = testMarketcloudSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BCA1BBE1DCCB934001DCBBA /* testMarketcloudSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BCA1BD11DCCB934001DCBBA /* Build configuration list for PBXNativeTarget "testMarketcloudSDK" */;
+			buildPhases = (
+				5BCA1BBB1DCCB934001DCBBA /* Sources */,
+				5BCA1BBC1DCCB934001DCBBA /* Frameworks */,
+				5BCA1BBD1DCCB934001DCBBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testMarketcloudSDK;
+			productName = testMarketcloudSDK;
+			productReference = 5BCA1BBF1DCCB934001DCBBA /* testMarketcloudSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BCA1BB71DCCB934001DCBBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Mirco Lacalandra";
+				TargetAttributes = {
+					5BCA1BBE1DCCB934001DCBBA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = X9N85FC3RS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5BCA1BBA1DCCB934001DCBBA /* Build configuration list for PBXProject "testMarketcloudSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BCA1BB61DCCB933001DCBBA;
+			productRefGroup = 5BCA1BC01DCCB934001DCBBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BCA1BBE1DCCB934001DCBBA /* testMarketcloudSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BCA1BBD1DCCB934001DCBBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCA1BCD1DCCB934001DCBBA /* LaunchScreen.storyboard in Resources */,
+				5BCA1BCA1DCCB934001DCBBA /* Assets.xcassets in Resources */,
+				5BCA1BC81DCCB934001DCBBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BCA1BBB1DCCB934001DCBBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCA1BC51DCCB934001DCBBA /* ViewController.swift in Sources */,
+				5BCA1BC31DCCB934001DCBBA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BCA1BC61DCCB934001DCBBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BCA1BC71DCCB934001DCBBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BCA1BCB1DCCB934001DCBBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BCA1BCC1DCCB934001DCBBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BCA1BCF1DCCB934001DCBBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BCA1BD01DCCB934001DCBBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BCA1BD21DCCB934001DCBBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X9N85FC3RS;
+				INFOPLIST_FILE = testMarketcloudSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = marketcloud.testMarketcloudSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5BCA1BD31DCCB934001DCBBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X9N85FC3RS;
+				INFOPLIST_FILE = testMarketcloudSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = marketcloud.testMarketcloudSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BCA1BBA1DCCB934001DCBBA /* Build configuration list for PBXProject "testMarketcloudSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BCA1BCF1DCCB934001DCBBA /* Debug */,
+				5BCA1BD01DCCB934001DCBBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BCA1BD11DCCB934001DCBBA /* Build configuration list for PBXNativeTarget "testMarketcloudSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BCA1BD21DCCB934001DCBBA /* Debug */,
+				5BCA1BD31DCCB934001DCBBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BCA1BB71DCCB934001DCBBA /* Project object */;
+}
