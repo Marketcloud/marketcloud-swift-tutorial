@@ -1,0 +1,3 @@
+github "Marketcloud/marketcloud-swift-sdk"
+github "SwiftyJSON/SwiftyJSON"
+github "stripe/stripe-ios"

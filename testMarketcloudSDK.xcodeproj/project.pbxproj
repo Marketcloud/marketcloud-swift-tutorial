@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B0A1F971DD0E564009CAE67 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A1F961DD0E564009CAE67 /* SignUpController.swift */; };
+		5B1347ED1DDF66FF00E56E07 /* MarketcloudMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1347EC1DDF66FF00E56E07 /* MarketcloudMain.swift */; };
+		5B2056CD1DEC8B070055EFAE /* CheckoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2056CC1DEC8B070055EFAE /* CheckoutController.swift */; };
+		5B41797B1DE4B94C00875ED6 /* CartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B41797A1DE4B94C00875ED6 /* CartController.swift */; };
+		5B77E1401DDB8166003B8962 /* ProductsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B77E13F1DDB8166003B8962 /* ProductsListController.swift */; };
+		5B9961C31DD074FF0018188F /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9961C21DD074FF0018188F /* SwiftyJSON.framework */; };
 		5BCA1BC31DCCB934001DCBBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCA1BC21DCCB934001DCBBA /* AppDelegate.swift */; };
 		5BCA1BC51DCCB934001DCBBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCA1BC41DCCB934001DCBBA /* ViewController.swift */; };
 		5BCA1BC81DCCB934001DCBBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BCA1BC61DCCB934001DCBBA /* Main.storyboard */; };
 		5BCA1BCA1DCCB934001DCBBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BCA1BC91DCCB934001DCBBA /* Assets.xcassets */; };
 		5BCA1BCD1DCCB934001DCBBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BCA1BCB1DCCB934001DCBBA /* LaunchScreen.storyboard */; };
+		5BCA1BD61DCCB9F0001DCBBA /* Marketcloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCA1BD51DCCB9F0001DCBBA /* Marketcloud.framework */; };
+		5BED02A21DD1F59B008A16E0 /* LogInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BED02A11DD1F59B008A16E0 /* LogInController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B0A1F961DD0E564009CAE67 /* SignUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		5B1347EC1DDF66FF00E56E07 /* MarketcloudMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketcloudMain.swift; sourceTree = "<group>"; };
+		5B2056CC1DEC8B070055EFAE /* CheckoutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutController.swift; sourceTree = "<group>"; };
+		5B41797A1DE4B94C00875ED6 /* CartController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartController.swift; sourceTree = "<group>"; };
+		5B77E13F1DDB8166003B8962 /* ProductsListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsListController.swift; sourceTree = "<group>"; };
+		5B9961C21DD074FF0018188F /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 		5BCA1BBF1DCCB934001DCBBA /* testMarketcloudSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testMarketcloudSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BCA1BC21DCCB934001DCBBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BCA1BC41DCCB934001DCBBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,9 @@
 		5BCA1BC91DCCB934001DCBBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BCA1BCC1DCCB934001DCBBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BCA1BCE1DCCB934001DCBBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BCA1BD51DCCB9F0001DCBBA /* Marketcloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Marketcloud.framework; path = Carthage/Build/iOS/Marketcloud.framework; sourceTree = "<group>"; };
+		5BDA2D271DEA1A5C00C21A3E /* Stripe.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Stripe.framework; path = Carthage/Build/iOS/Stripe.framework; sourceTree = "<group>"; };
+		5BED02A11DD1F59B008A16E0 /* LogInController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BCA1BD61DCCB9F0001DCBBA /* Marketcloud.framework in Frameworks */,
+				5B9961C31DD074FF0018188F /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +59,7 @@
 			children = (
 				5BCA1BC11DCCB934001DCBBA /* testMarketcloudSDK */,
 				5BCA1BC01DCCB934001DCBBA /* Products */,
+				5BCA1BD41DCCB9F0001DCBBA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +75,29 @@
 			isa = PBXGroup;
 			children = (
 				5BCA1BC21DCCB934001DCBBA /* AppDelegate.swift */,
-				5BCA1BC41DCCB934001DCBBA /* ViewController.swift */,
 				5BCA1BC61DCCB934001DCBBA /* Main.storyboard */,
 				5BCA1BC91DCCB934001DCBBA /* Assets.xcassets */,
 				5BCA1BCB1DCCB934001DCBBA /* LaunchScreen.storyboard */,
 				5BCA1BCE1DCCB934001DCBBA /* Info.plist */,
+				5BCA1BC41DCCB934001DCBBA /* ViewController.swift */,
+				5B0A1F961DD0E564009CAE67 /* SignUpController.swift */,
+				5BED02A11DD1F59B008A16E0 /* LogInController.swift */,
+				5B77E13F1DDB8166003B8962 /* ProductsListController.swift */,
+				5B1347EC1DDF66FF00E56E07 /* MarketcloudMain.swift */,
+				5B41797A1DE4B94C00875ED6 /* CartController.swift */,
+				5B2056CC1DEC8B070055EFAE /* CheckoutController.swift */,
 			);
 			path = testMarketcloudSDK;
+			sourceTree = "<group>";
+		};
+		5BCA1BD41DCCB9F0001DCBBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BDA2D271DEA1A5C00C21A3E /* Stripe.framework */,
+				5B9961C21DD074FF0018188F /* SwiftyJSON.framework */,
+				5BCA1BD51DCCB9F0001DCBBA /* Marketcloud.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +110,7 @@
 				5BCA1BBB1DCCB934001DCBBA /* Sources */,
 				5BCA1BBC1DCCB934001DCBBA /* Frameworks */,
 				5BCA1BBD1DCCB934001DCBBA /* Resources */,
+				5BCA1BD71DCCB9F7001DCBBA /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -132,13 +169,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5BCA1BD71DCCB9F7001DCBBA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Marketcloud.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5BCA1BBB1DCCB934001DCBBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B1347ED1DDF66FF00E56E07 /* MarketcloudMain.swift in Sources */,
 				5BCA1BC51DCCB934001DCBBA /* ViewController.swift in Sources */,
+				5B41797B1DE4B94C00875ED6 /* CartController.swift in Sources */,
+				5BED02A21DD1F59B008A16E0 /* LogInController.swift in Sources */,
 				5BCA1BC31DCCB934001DCBBA /* AppDelegate.swift in Sources */,
+				5B2056CD1DEC8B070055EFAE /* CheckoutController.swift in Sources */,
+				5B0A1F971DD0E564009CAE67 /* SignUpController.swift in Sources */,
+				5B77E1401DDB8166003B8962 /* ProductsListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +323,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X9N85FC3RS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = testMarketcloudSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = marketcloud.testMarketcloudSDK;
@@ -275,6 +340,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X9N85FC3RS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = testMarketcloudSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = marketcloud.testMarketcloudSDK;
@@ -302,6 +371,7 @@
 				5BCA1BD31DCCB934001DCBBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
